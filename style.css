@@ -1,0 +1,475 @@
+/* CSS reset */
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 100%;
+}
+
+/* navigaation bar */
+#navbar{
+    position: sticky;
+    display:flex;
+    align-items: center;
+    top: 0rem;
+    width: 100vw;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+/*navigaation bar: logos and image */
+#logo{
+margin: 0.3125rem 0.25rem;
+height: 56px;
+}
+#logo img{
+    width: 9em;
+    height: 4em;
+    margin: -0.1875rem -0.1875rem;
+}
+/*navigaation bar: list stylling */
+
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#navbar ul li{
+    
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+color: white;
+display: flex;
+padding: 0.1875rem 1.375rem;
+border-radius: 1.25rem;
+text-decoration: none;
+}
+#navbar ul li a:hover{
+color: black;
+background-color: white;
+}
+
+
+/* Intro section */
+#Intro{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    /* padding: 3px 200px; */
+    justify-content: center;
+    align-items: center;
+    height: 85.54vh;
+    border: 0.2rem solid green;
+}
+
+#Intro .introduction{
+    height: 82.54vh;
+    width: 48vw;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.125rem solid #0e007a;
+    border-radius: 0.875rem;
+    background-color: #2196f3;
+}
+#Intro .ige{
+    height: 82.54vh;
+    width: 48vw;
+    margin: auto;
+}
+#Intro .ige img{
+    height: 82.54vh;
+    width: 48vw;
+}
+#Intro .introduction h1{
+    color: rgb(182, 28, 28);
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 2.8rem;
+}
+#Intro .introduction h2{
+    color: rgb(182, 29, 29);
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    padding: 0.75rem;
+    font-size: 2.2rem;
+}
+#Intro .introduction p{
+    color: rgb(161, 24, 24);
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Bree Serif', serif;
+    
+    /* font-family: 'Baloo Bhaina 2', cursive; */
+}
+
+#Intro a{
+    padding: 0.375 1.25rem;
+    border: 0.25rem solid white;
+    background-color: black;
+    color: white;
+    margin: 1.0625rem 1.0625rem;
+    font-size: 1.5rem;
+    border-radius: 0.625rem;
+    cursor: pointer;
+    text-decoration: none;
+    width: 18%;
+}
+#Intro a:hover{
+    border: 0.25rem solid rgba(230, 18, 18, 0.726);
+}
+
+/* Specialised-Dishes */
+
+#Specialities .container{
+    display: flex;
+    height:90% ;
+    width:100vw ;
+    background-color: #128b00;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#Specialities .container .box{
+        display: flex;
+        float: left;
+        align-items: center;
+        background-color: darkblue;
+        height: 40vh;
+        width: 35vw;
+        padding: 0.625rem;
+        margin: 0.625rem;
+        border-radius: 1.1875rem;
+}
+#Specialities .container .box .part{
+    background-color: #dabfbf;
+    border: 0.25rem solid red;
+    border-radius: 0.5rem;
+    height: 31vmin;
+    width: 32vmax;
+    justify-content: center;
+    align-items: center;
+}
+ 
+#Specialities .box img{
+    height: 6.75rem;
+    width: 7.25rem;
+}
+#Specialities .box .buton {
+            background-color: rgb(53, 202, 202);
+            padding: 0.375rem;
+            border: none;
+            cursor: pointer;
+            font-size: 0.8175rem;
+            border-radius: 0.3125rem;
+            color: rgb(9, 22, 209);
+            text-decoration: none;
+            float: left;
+}
+
+#Specialities .box .buton:hover {
+            color: rgb(10, 32, 226);
+            background-color: yellow;
+        }
+
+#Specialities .box .buton:visited{
+            background-color: pink;
+        }
+
+#Specialities .box .buton:focus {
+            background-color: rgb(219, 7, 184);
+            content: "added";
+        }
+#Specialities .box p{
+    height: 0px;
+   display: inline;
+   font-family: 'Bree Serif', serif;
+   font-size: 1rem;
+}
+
+/* Our recommendation section */
+
+#Our-recommendation-section .search{
+    color: rgb(69 243 7 / 95%);
+    padding: 0px 4.6875rem;
+    width: 90%;
+    text-align: center;
+    background-color: darkblue;
+}
+
+#Our-recommendation-section input{
+    border: 0.25rem red solid;
+    border-radius: 0.875rem;
+    padding: 0.3125rem 1.0625rem;
+    width: 31.25rem;
+}
+#Our-recommendation-section input:hover{
+    background-color: yellow;
+}
+#Our-recommendation-section .container{
+    display: flex;
+    height:100% ;
+    width:100vw ;
+    background-color: #128b00;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+#Our-recommendation-section .container .box{
+        display: flex;
+        float: left;
+        align-items: center;
+        background-color: darkblue;
+        height: 40vh;
+    width: 35vw;
+        padding: 0.625rem;
+        margin: 0.625rem;
+        border-radius: 1.1875rem;
+}
+#Our-recommendation-section .container .box .part{
+    background-color: #dabfbf;
+    border: 0.25rem solid red;
+    border-radius: 0.5rem;
+    height: 31vmin;
+    width: 32vmax;
+    justify-content: center;
+    align-items: center;
+}
+#Our-recommendation-section .container .box img {
+    height: 6.75rem;
+    width: 7.25rem;
+}
+#Our-recommendation-section .box .buton {
+    background-color: rgb(53, 202, 202);
+    padding: 0.375rem;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8175rem;
+    border-radius: 0.3125rem;
+    color: rgb(9, 22, 209);
+    text-decoration: none;
+    float: left;
+}
+
+#Our-recommendation-section .box .buton:hover {
+    color: rgb(10, 32, 226);
+    background-color: yellow;
+}
+
+#Our-recommendation-section .box .buton:focus {
+    background-color: rgb(219, 7, 184);
+    content: "added";
+}
+
+/* #Our-recommendation-section .box .buton:active {
+    background-color: turquoise;
+} */
+#Our-recommendation-section .box p{
+height: 0px;
+display: inline;
+font-family: 'Bree Serif', serif;
+font-size: 1rem;
+}
+
+
+
+/* #review-section */
+.client {
+    
+    border: 0.25rem solid #ba2b2b94;
+    margin: auto 0.1875rem;
+    padding: 0.75rem 0.1875rem;
+    background-color: rgba(66, 207, 31, 0.808);
+    border-radius: 0.9375rem;
+}
+.client img{
+    height: 16.48vh;
+    width: 10.48vw;
+}
+#review{
+    height: 100vh;
+    width: 100vw;
+}
+#review-section {
+    height: 84.54vh;
+    width: 100vw;
+    border: 0.1875rem solid blue;
+    margin: 0px auto;
+    font-family: 'Dancing Script', cursive;
+    background-color: coral;
+    display: flex;
+    flex-wrap: wrap;
+}
+.previous-reviews {
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+    border: 0.25rem solid #00ffe2e0;
+    background-color: #00818bde;
+    border-radius: 1.25rem;
+    padding: 0px;
+    height: 82.54vh;
+    margin: auto;
+}
+
+.Review-Form {
+    width: 43%;
+    border: 0.25rem solid red;
+    border-radius: 0.75rem;
+    background-color: darkgray;
+    height: 82.54vh;
+    margin: 0px auto;
+}
+
+/* footer section */
+
+#footer-section {
+    height: 100vh;
+    width: 100vw;
+}
+#footers {
+    display: flex;
+    align-items: center;
+}
+.footer-item {
+    padding: 0.625rem;
+}
+#footer-section::before{
+    content: "";
+    background: url('contact-us3.jpg');
+    position: absolute;
+    opacity: 0.4;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+#footers img {
+    height: 10vh;
+    width: 4vw;
+}
+#footers h2 {
+    margin-top: 12rem;
+}
+/* #footers h1{
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    color: black;
+    text-align: center;
+} */
+#footers a{
+    padding: 0.375rem 1.25rem;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    margin: 1.0625rem 1.0625rem;
+    font-size: 1.5rem;
+    border-radius: 0.625rem;
+    cursor: pointer;
+    height: 11vh;
+    width: 5vw;
+    text-decoration: none;
+}
+#footers  a:hover{
+    
+    background-color: white;
+    border: 0.125em solid black;
+    
+}
+.footer-part .navbar ul{
+ display: flex;
+ flex-direction: row;
+ background-color: darkcyan;
+ color: #040000;
+ margin-top: 14.8rem;
+}
+.footer-part .navbar ul li{
+ padding: 2em;
+ list-style: none;
+}
+.footer-part .navbar {
+ width: 100%;
+ height: 15%;
+ margin-top: 54vh;
+}
+
+/* utility clases */
+.center {
+    text-align: center;
+}
+.h-primary {
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 0px;
+    color: black;
+    height: 4.6875rem;
+    background-image: linear-gradient(to right,purple,red);
+}
+.h-secondary {
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 0px;
+}
+h3{
+    text-align: right;
+}
+a {
+    text-decoration: none;
+/* font-family: 'Bree Serif', serif; */
+}
+
+/* header responsive code */
+@media(max-width:1170px)
+{
+    html{
+        font-size: 92%;
+    }
+}
+@media(max-width:1028px)
+{
+    html{
+        font-size: 88%;
+    }
+}
+@media(max-width:935px)
+{
+    html{
+        font-size: 75%;
+    }
+}
+@media(max-width:768px)
+{
+    html{
+        font-size: 75%;
+    }
+}
+@media(max-width:644px)
+{
+    html{
+        font-size: 59%;
+    }
+}
+@media(max-width:533px)
+{
+    html{
+        font-size: 45%;
+    }
+}
+@media(max-width:376px)
+{
+    html{
+        font-size: 35%;
+    }
+}
