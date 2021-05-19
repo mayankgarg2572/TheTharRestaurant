@@ -324,7 +324,7 @@ font-size: 1rem;
 }
 #review::before{
     content: "";
-    background: url('review-page background.jpg') no-repeat center center/cover;
+    background: url('review-page-background.jpg') no-repeat center center/cover;
     position: absolute;
     opacity: 0.4;
     width: 100vw;
