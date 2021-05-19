@@ -5,7 +5,7 @@
 }
 html{
     scroll-behavior: smooth;
-    font-size: 100%;
+    font-size: 86%;
 }
 
 /* navigaation bar */
@@ -434,25 +434,26 @@ a {
 @media(max-width:1170px)
 {
     html{
-        font-size: 92%;
+        font-size: 78%;
     }
 }
 @media(max-width:1028px)
 {
     html{
-        font-size: 88%;
+        font-size: 75%;
     }
 }
-@media(max-width:935px)
+ 
+@media(max-width:838px)
 {
     html{
-        font-size: 75%;
+        font-size: 67%;
     }
 }
 @media(max-width:768px)
 {
     html{
-        font-size: 75%;
+        font-size: 61%;
     }
 }
 @media(max-width:644px)
@@ -471,5 +472,11 @@ a {
 {
     html{
         font-size: 35%;
+    }
+}
+@media(max-width:285px)
+{
+    html{
+        font-size: 25%;
     }
 }
