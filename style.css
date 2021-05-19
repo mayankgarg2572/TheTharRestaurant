@@ -292,7 +292,6 @@ font-size: 1rem;
     border: 0.25rem solid #ba2b2b94;
     margin: auto 0.1875rem;
     padding: 0.75rem 0.1875rem;
-    background-color: rgba(66, 207, 31, 0.808);
     border-radius: 0.9375rem;
 }
 .client img{
@@ -309,7 +308,6 @@ font-size: 1rem;
     border: 0.1875rem solid blue;
     margin: 0px auto;
     font-family: 'Dancing Script', cursive;
-    background-color: coral;
     display: flex;
     flex-wrap: wrap;
 }
@@ -318,18 +316,26 @@ font-size: 1rem;
     flex-direction: column;
     width: 43%;
     border: 0.25rem solid #00ffe2e0;
-    background-color: #00818bde;
+    background-color: #00818b38;
     border-radius: 1.25rem;
     padding: 0px;
     height: 82.54vh;
     margin: auto;
 }
-
+#review::before{
+    content: "";
+    background: url('review-page background.jpg') no-repeat center center/cover;
+    position: absolute;
+    opacity: 0.4;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
 .Review-Form {
     width: 43%;
     border: 0.25rem solid red;
     border-radius: 0.75rem;
-    background-color: darkgray;
+    background-color: #22909845;
     height: 82.54vh;
     margin: 0px auto;
 }
@@ -349,7 +355,7 @@ font-size: 1rem;
 }
 #footer-section::before{
     content: "";
-    background: url('contact-us3.jpg');
+    background: url('contact-us3.jpg') no-repeat center center/cover;
     position: absolute;
     opacity: 0.4;
     width: 100vw;
